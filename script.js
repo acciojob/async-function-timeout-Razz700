@@ -13,7 +13,7 @@ btn.addEventListener('click',()=>{
 	async function f1() {
 
 		let res= await p1;
-		out.innerHTML=`${input1.value}.`;
+		out.innerHTML=`${input1.value}`;
 		input1.value='';
 	    input2.value="";
 }
